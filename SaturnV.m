@@ -113,7 +113,7 @@ while (velocity(i-1)>=0) %loop runs until velocity of rocket is 0
 end
 
 %plots for accel, velocity, and position vs time graphs
-figure("Name",'reee')
+figure("Name",'graph')
 subplot(2,2,1);
 plot(time,acceleration)
 xlabel('Time (s)');
